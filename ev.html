@@ -17,7 +17,7 @@
 	    // 触发
 	    emit(type, args) {
 	        // 从已有的事件中找当前触发的事件
-            let handler = this.events.get(type);
+            	let handler = this.events.get(type);
 	        if(handler) {
 	        	// apply允许我们将一个数组"解开"成为一个个的参数再传递给调用函数
 	            // handler.apply(this, args)
